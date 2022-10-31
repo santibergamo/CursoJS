@@ -5,5 +5,10 @@ mostrar el importe con un aumento del 10 %
 en el cuadro de texto "RESULTADO".*/
 function mostrarAumento()
 {
-	alert("ok");
+	let edad;
+	edad = document.getElementById("txtEdad").value;
+	edad = parseInt(edad);
+	if( edad == 15);
+	alert ("niña bonita");
 }
+
